@@ -1,0 +1,25 @@
+{
+	"name": "LanguageConverterApi",
+	"author": [
+		"AbyxDev"
+	],
+	"url": "https://github.com/Kenny2github/LanguageConverterApi",
+	"license-name": "MIT",
+	"type": "api",
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\LanguageConverterApi\\": "includes/"
+	},
+	"APIModules": {
+		"languageconvert": "MediaWiki\\Extension\\LanguageConverterApi\\ApiLanguageConvert"
+	},
+	"MessagesDirs": {
+		"LanguageConverterApi": ["i18n"]
+	},
+	"requires": {
+		"MediaWiki": ">= 1.35.0",
+		"platform": {
+			"php": ">= 7.0"
+		}
+	},
+	"manifest_version": 2
+}

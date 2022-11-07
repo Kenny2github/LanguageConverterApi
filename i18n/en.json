@@ -1,0 +1,12 @@
+{
+	"languageconverterapi-desc": "Adds an action API module to convert between variants of a language",
+	"apihelp-languageconvert-summary": "Convert text between language variants using LanguageConverter.",
+	"apihelp-languageconvert-param-text": "The text to convert.",
+	"apihelp-languageconvert-param-lang": "The language whose variants to convert between.",
+	"apihelp-languageconvert-param-variants": "The language variants to convert to. If unspecified, converts to all available variants.",
+	"@metadata": {
+		"authors": [
+			"AbyxDev"
+		]
+	}
+}
